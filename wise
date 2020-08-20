@@ -1,65 +1,152 @@
-def method_name():
-    def T4WO():
+from termcolor import colored
+def wise():
+    def WISE():
         def test3():
             def test2():
                 def test():
                     def main():
-                        # declare variables
-                        # int menuoptions
+
                         menuochoice = 0            	
                         thewisechoice = 0
-                    
                         module = 0
                         keyword = 0
                         topic = 0
                         symbol = 0
-                                
+
                         if menuochoice != 2:            	
-                            # display intro menu
+
                             print('Enter the dungeon... or run away?\n')
                             print('1)The Four Wise Ones.')
                             print('2)Quit\n')
-                        
-                            # prompt for menuchoice
-                            menuochoice = int(input('Enter your choice here:'))
-                            print(' ')
-                            if menuochoice ==1:            		
-                                # SHOW SUBMENU
-                                print('Please choose the CONCEPT you would like to receive wisdom from...')
-                                print('')
-                                print('1)The Wise Module')
-                                print('2)The Wise Keyword')
-                                print('3)The Wise Topic')
-                                print('4)The Wise Symbol')
-                                print(' ')
-                              
-                                # prompt for choice\
-                                
-                                if menuochoice == 1:            			
-                                  thewisechoice = int(input('Enter your choice here: '))            			  
-                                  if thewisechoice ==1:
-                                          module += 1		            							  
-                                          print('\nHello, I am the Wise Module. One day I will be able to help you a lot more... but...') 
-                                          print('I am young and hungry... So the only way I can grow is when you feed me.\n' )
-                                          print('')
-        
-        
-        
-        
-        
-        
-                                  if thewisechoice ==2:
-                                          keyword += 1		            							  
-                                          print('\nHello, I am the Keyword Module. I am constantly used, re-used and abused...') 
-                                          print('They want the wonderful 37 all for themselves... .\n' )
-                                          print('Do not worry though... I grow exponentially...')
-                                  
-                                  if thewisechoice ==3:
-                                          topic += 1
-                                          print('The names Topic. You can call me Tops')
-                                  if thewisechoice == 4:
-                                          symbol +=1
-                                          print('I am the most underapreciated concept of them all...')
+
+                        themodchoice = int(input('Enter your choice here:'))
+                        if themodchoice ==1:
+                                    print('\nHello, I am here to test you on your Python Wisdoms -Modules, Keywords, Symbols, and Topics-. Answer a few simple question that me and my family will store in memory and collectively learn from each other’s experiences. One day I will be able to help you a lot more... but...') 
+                                    print('I am young and hungry... So the only way I can grow is when you feed me.\n' )
+                                    print('')
+                                    print('So here is how you can help me.\nAnwser a few questions and your are all done.')
+                                 
+                                    print('Which of the following is not a python module?\n')
+
+                                    print('1)inspect')
+                                    print('2)select')
+                                    print('3)elif')
+                                    print('4)string')  
+
+                                    thechoice = int(input('\nEnter your choice here: '))
+
+                                    if thechoice != 3:
+
+                                        print(colored('\nWrong!','red'))
+                                        print('\nTry the next one.')
+                                    elif thechoice == 3:
+                                        print(colored('\nCorrect!','green'))
+                                        print('\nNext time I will be a lot smarter thanks to you!')
+
+                                    
+
+                                    print('\nWhich of the following is a python module?')
+                                    print('1)random')
+                                    print('2)except')
+                                    print('3)import')
+                                    print('4)return')
+
+                                    thechoice = int(input('\nEnter your choice here: '))
+
+                                    if thechoice != 1:
+                                        print(colored('\nWrong!','red'))
+                                        print('\nNext time I will be a lot smarter thanks to you!')
+                                    elif thechoice == 1:
+                                        print(colored('\nCorrect!','green'))
+                                        print('\nNext time I will be a lot smarter thanks to you!')
+
+                                    print('\nWhat does != mean in python')
+                                    print('1)addition of a and b')
+                                    print('2)a is equal to b')
+                                    print('3)a divided by b')
+                                    print('4)a is not equal to b')
+
+                                    thechoice = int(input('\nEnter your choice here: '))
+
+                                    if thechoice != 4:
+                                        print(colored('\nWrong!','red'))
+                                        print('\nNext time I will be a lot smarter thanks to you!')
+                                    elif thechoice == 4:
+                                        print(colored('\nCorrect!','green'))
+                                        print('\nNext time I will be a lot smarter thanks to you!') 
+
+                                        print('What does the python module “array” mean?\n')
+
+                                    print('1)Defines an object type which can efficiently represent a collection of basic values like characters, integers, and floating point numbers.')
+                                    print('2)Executable statement that defines a class object')
+                                    print('3) A disassembler of python byte code into mnemonics')
+                                    print('4)A multi-producer, multi-consumer queue')  
+
+                                    thechoice = int(input('\nEnter your choice here: '))
+
+                                    if thechoice != 1:
+
+                                        print(colored('\nWrong!','red'))
+                                        print('\nTry the next one.')
+                                    elif thechoice == 1:
+                                        print(colored('\nCorrect!','green'))
+                                        print('\nNext time I will be a lot smarter thanks to you!') 
+
+                                        print('What is not one of the 4 essential parts of a computer?\n')
+
+                                    print('1)voltage')
+                                    print('2)displays')
+                                    print('3)processors')
+                                    print('4)motherboard')  
+
+                                    thechoice = int(input('\nEnter your choice here: '))
+
+                                    if thechoice != 2:
+
+                                        print(colored('\nWrong!','red'))
+                                        print('\nTry the next one.')
+                                    elif thechoice == 2:
+                                        print(colored('\nCorrect!','green'))
+                                        print("Thanks! I'm stuffed")
+                                        print('\nNext time I will be a lot smarter thanks to you!')        		
+                                        
+                                        print('What is not one of the 4 essential parts of a computer?\n')
+
+                                    print('1)voltage')
+                                    print('2)displays')
+                                    print('3)processors')
+                                    print('4)motherboard')  
+
+                                    thechoice = int(input('\nEnter your choice here: '))
+
+                                    if thechoice != 2:
+
+                                        print(colored('\nWrong!','red'))
+                                        print('\nTry the next one.')
+                                    elif thechoice == 2:
+                                        print(colored('\nCorrect!','green'))
+                                        print("Thanks! I'm stuffed")
+                                        print('\nNext time I will be a lot smarter thanks to you!')        		
+                                        
+                                        print('What is not one of the 4 essential parts of a computer?\n')
+
+                                    print('1)voltage')
+                                    print('2)displays')
+                                    print('3)processors')
+                                    print('4)motherboard')  
+
+                                    thechoice = int(input('\nEnter your choice here: '))
+
+                                    if thechoice != 2:
+
+                                        print(colored('\nWrong!','red'))
+                                        print('\nTry the next one.')
+                                    elif thechoice == 2:
+                                        print(colored('\nCorrect!','green'))
+                                        print("Thanks! I'm stuffed")
+                                        print('\nNext time I will be a lot smarter thanks to you!')        							
+
+                                   
                 
                     def method_name():
                         return main()
@@ -79,9 +166,9 @@ def method_name():
         test, test2 = test3()
         return test3
     
-    test3 = T4WO()
-    return T4WO, test3
+    test3 = WISE()
+    return WISE, test3
 
-T4WO, test3 = method_name()
+WISE, test3 = wise()
 
  
